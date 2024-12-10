@@ -1,0 +1,69 @@
+:root {
+  --blue: rgb(55, 81, 126);
+}
+.main {
+  background: var(--blue);
+  color: white !important;
+}
+.para {
+  color: #c0c8d7 !important;
+}
+.img1 {
+  animation: up-down 1.9s linear infinite alternate;
+}
+@keyframes up-down {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.aboutus {
+  color: var(--blue);
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background: rgb(192, 192, 192);
+  border-radius: 30px;
+  margin: auto;
+  position: relative;
+}
+.sline {
+  position: absolute;
+  width: 35%;
+  height: 2.3px;
+  background: #31d2f2;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.maxcontent {
+  width: max-content;
+  margin: auto;
+}
+.fluid {
+  background: #f5f6f8;
+}
+.fluid-btn {
+  transition: all 1s;
+}
+.fluidbtn:hover {
+  color: white !important;
+  background: #31d2f2 !important;
+}
+.fs-2 {
+  color: rgb(55, 81, 126);
+}
+.blue {
+  background-color: rgb(55, 81, 126) !important;
+}
+.html {
+  color: rgb(37, 54, 85);
+  font-size: 14px;
+  padding-top: 0px;
+  font-weight: bold;
+  margin-top: 13px;
+}
